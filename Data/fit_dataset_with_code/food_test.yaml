@@ -1,0 +1,26 @@
+# Train/val/test sets
+train: D:\DL_project\Data\fit_dataset_with_code\train\images   # train images (relative to 'path') 128 images
+val: D:\DL_project\Data\fit_dataset_with_code\validation\images     # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: chicken
+  1: pizza
+  2: burger
+  3: pork_cutlet
+  4: sandwich
+  5: sushi
+  6: salad
+  7: pork feet
+  8: juck
+  9: bossam
+  10: gimbab
+  11: dduckbokki
+  12: Jajangmyeon
+  13: Jjambbong
+  14: Sweet and sour pork
+  15: kimchi
+  16: veges
+
+nc: 17
