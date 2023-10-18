@@ -1,0 +1,33 @@
+1. 이미지 라벨링 할 로컬 저장소에 git clone
+	labelimg 깃허브 주소 : https://github.com/HumanSignal/labelImg
+   
+
+2. 추가 패키지 설치
+	conda install pyqt=5 (pyrcc5 불러오지 못할 경우 삭제하고 pip install로 해보자)
+	conda install -c anaconda lxml
+
+3. resources.qrc 파일 실행
+	anaconda prompt -> env activate -> cd [git clone한 로컬 저장소] 
+	>> pyrcc5 -o libs/resources.py resources.qrc
+ 	  (안될 경우 pyqt 삭제하고 재설치)
+
+4. python labelImg.py
+	아무 문제없이 켜지면 셋팅 완료
+
+
+---- 라벨링 순서
+1. data/predefined_classes.txt 에 내가 인식할 라벨을 한줄에 하나씩 기입
+
+2. python labelImg.py 실행 -> open dir -> 내가 작업할 이미지 폴더 선택
+
+3. change save dir -> 라벨링한 작업물을 저장할 폴더 만들어 놓고 선택
+
+4. save 밑에 버튼을 눌러 Yolo로 셋팅
+
+5. create rectbox 버튼을 눌러(단축키 : w) 이미지에 사각형 박스 설정
+
+6. 1번에서 지정했던 라벨링 중 해당 라벨을 선택.
+
+7. save누르면 라벨정보 저장 완료
+
+8. next image 눌르면서 반복 작업 수행
