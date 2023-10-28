@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: ../Data_total/fit_dataset/food_test.yaml
+data: ../Data_total/food_test.yaml
 epochs: 100
 patience: 50
 batch: 32
@@ -11,7 +11,7 @@ save_period: -1
 cache: false
 device: cuda:0
 workers: 8
-project: ../../logs/
+project: ../Data_total/fit_logs/
 name: yolov8_totaldata_e100
 exist_ok: false
 pretrained: true
@@ -95,4 +95,4 @@ mixup: 0.0
 copy_paste: 0.0
 cfg: null
 tracker: botsort.yaml
-save_dir: ..\..\logs\yolov8_totaldata_e100
+save_dir: ..\Data_total\fit_logs\yolov8_totaldata_e100
