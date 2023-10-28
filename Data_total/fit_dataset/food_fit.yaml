@@ -1,0 +1,19 @@
+names:
+- chicken
+- pizza
+- burger
+- pork_cutlet
+- sandwich
+- sushi
+- salad
+- pork_feet
+- juck
+- bossam
+- gimbab
+- dduckbokki
+- Jajangmyeon
+- Jjambbong
+- Sweet_and_sour_pork
+nc: 15
+train: D:/DL_project/Data_total/fit_dataset/train/images/
+val: D:/DL_project/Data_total/fit_dataset/validation/images/
