@@ -15,5 +15,5 @@ names:
 - Jjambbong
 - Sweet_and_sour_pork
 nc: 15
-train: D:/DL_project/Data_total/fit_dataset/train/images/
-val: D:/DL_project/Data_total/fit_dataset/validation/images/
+train: C:/Users/3sp39/Documents/DL_project/Data_total/fit_dataset/train/images/
+val: C:/Users/3sp39/Documents/DL_project/Data_total/fit_dataset/validation/images/
